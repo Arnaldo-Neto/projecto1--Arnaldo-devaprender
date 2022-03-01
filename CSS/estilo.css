@@ -1,0 +1,161 @@
+@charset "UTF-8";
+@font-face{
+  font-family: 'Android';
+  src: url('../fonts/idroid.otf') format('opentype');
+  font-weight: normal;
+}
+@font-face{
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+  font-weight: normal;
+}
+@font-face{
+  font-family: 'Afterglow';
+  src: url('../fonts/Afterglow-Regular.ttf') format('truetype');
+  font-weight: normal;
+}
+@font-face{
+  font-family: 'Dark';
+  src: url('../fonts/DarkXShadowX21%5C%27s\ Skyrim\ Font.ttf') format('truetype');
+  font-weight: normal;
+}
+:root {
+  --cor0:#dfe1ac;
+  --cor1:#f0cc04;
+  --cor2:#f5deb3;
+  --cor3:#dd9d4e;
+  --cor4:#e6d369;
+  --cor5:#09092b;
+
+  --font-padrão: Arial, Verdana, Helvetica, sans-serif;
+ --fonte-destaque: 'Bebas Neue',  cursive;
+ --fonte-android: 'Android', cursive;
+}
+body{
+  font-family: var(--font-padrão);
+  background-color: var(--cor0);
+}
+ article h1 {
+  color: var(--cor5);
+  font-family: var(--font-padrão);
+  font-size: 1.4em;
+}
+
+main{
+  min-width: 300px;
+  max-width: 1000px;
+  margin: auto;
+  background-color: white;
+  line-height: 1.8em;
+  text-align: justify;
+}
+main strong{
+  font-weight: bolder;
+}
+main p{
+  font-size: 1.2em;
+}
+footer{
+    background-color: #4a5252;
+    text-align: center;
+    height:  90px;
+}
+footer ul{
+  color: white;
+   font-size: 16px;
+   padding-bottom: 20px;
+   display: inline;
+
+}
+footer ul li{
+  display: inline;
+}
+footer figure img{
+  padding-top: 5px;
+  border-radius: 10px;
+ 
+}
+.zizela{
+  border-radius: 20px;
+ margin-top: 10px;
+}
+ .menu{
+  display: flex;
+  margin: 5px;
+  background-color: rgba(247, 154, 33, 0.64);
+  text-align: left;
+  height: 50px;
+}
+.item_menu{
+  display: inline-block;
+}
+.item_menu a{
+  display: inline-block;
+  padding: 1.86em 1.42em;
+  margin-left:  2.86em;
+}
+main h2{
+background-image: linear-gradient(to bottom, var(--cor1), var(--cor3));
+text-align: center;
+font-family: 'Dark';
+font-size: 1.5em;
+margin: auto;
+max-width: 300px;
+border-radius: 10px;
+font-weight: bold;
+margin-bottom: 5px;
+}
+main aside h3{
+background-color: var(--cor4);
+padding: 10px;
+text-align: center;
+font-family: 'Dark';
+font-size: 1.5em;
+font-weight: bold;
+}
+.card{
+  margin: 5px;
+}
+.referencia{
+  text-align: center;
+  font-size: 25px;
+margin-top: 5px;
+}
+.obra{
+  text-align: center;
+  font-size: 30px;
+  margin-left: 40%;
+  margin-top: 10px;
+}
+main figure{
+background-color: white;
+position: relative;
+padding: 1px;
+padding-bottom: 50%;
+}
+main figure img{
+position: absolute;
+top: 5%;
+left: 10%;
+width: 80%;
+height: 80%;
+border-radius: 15px;
+}
+main figure figcaption{
+  text-align: center;
+  position: absolute;
+  top: 90%;
+  bottom: 1%;
+  left: 40%;
+  font-family: 'Afterglow', Verdana, 'Geneva', Tahoma, sans-serif;
+  font-size: 1.4em;
+}
+main aside{
+  background-color: var(--cor4);
+  border-radius: 15px;
+  margin: 0px 10px 0px 10px;
+}
+.final{
+  font-family: 'Roboto';
+  font-size: 1.3em;
+}

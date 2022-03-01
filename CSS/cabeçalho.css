@@ -1,0 +1,47 @@
+
+header{
+background-color: #08080d;
+border: 3px solid #f0cc04;
+min-height: 70px;
+}
+.imagem1{
+    width: 10%;
+}
+ .logo{
+    height: 4em;
+  }
+  .Contactos{
+    color: #f5deb3;
+    font-size: 14px;
+    max-width: 40%;
+   font-weight: normal;
+   margin: auto;
+}
+.item_contactos{
+    display: inline-block;
+    padding: 10px;
+}
+@media (min-width: 770px) {
+    .item_contactos{
+        margin-left: 1.42em;
+    }
+}
+header{
+    margin-bottom: 10px;
+}
+nav{
+    background-color: #dd9d4e;
+    display: flex;
+}
+nav > a {
+    color: black;
+    padding: 10px;
+    font-size: 16px;
+    vertical-align: middle;
+}
+nav > a:hover{
+    display: flex;
+    align-items: baseline;
+    background-color: #e6d369;
+}
+

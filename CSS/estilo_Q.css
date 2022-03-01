@@ -1,0 +1,36 @@
+header{
+    background-color: rgb(8, 8, 8);
+    border: 3px solid #f0cc04;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header ul li {
+    display: inline-block;
+    color: bisque;
+}
+header ul{
+    padding-right: 5%;
+    margin-left: 5%;
+}
+header figure img{
+    width: 50%;
+}
+@media (max-width: 1000px){
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.flex-container-item{
+    width: 55%;
+}
+header figure img{
+    width: 50%;
+}
+header ul{
+    padding-right: 0px;
+}
+}

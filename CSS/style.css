@@ -1,0 +1,221 @@
+@charset "UTF-8";
+@font-face{
+  font-family: 'Android';
+  src: url('../fonts/idroid.otf') format('opentype');
+  font-weight: normal;
+}
+@font-face{
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+  font-weight: normal;
+}
+@font-face{
+  font-family: 'Afterglow';
+  src: url('../fonts/Afterglow-Regular.ttf') format('truetype');
+  font-weight: normal;
+}
+@font-face{
+  font-family: 'Dark';
+  src: url('../fonts/DarkXShadowX21%5C%27s\ Skyrim\ Font.ttf') format('truetype');
+  font-weight: normal;
+}
+body{
+    background-color: beige;
+}
+header{
+    background-color: black;
+    height: 100px;
+    border: 3px solid #f0cc04;
+}
+header figure img{
+    display:inline;
+    width: 100px;
+    margin-top: 25px;
+}
+header figure{
+    display: inline;
+}
+header ul li{
+    color: bisque;
+    display: inline;
+   
+}
+header ul{
+ float: right;
+ margin-right:400px;
+ margin-top: 40px;
+}
+@media (max-width: 1130px) {
+    header ul{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+       }
+       header ul li{
+        color: bisque;
+        display: block;
+    }
+    header figure img{
+        margin-top: 25px;
+        margin-left: 45%;
+        margin-right: 50%;
+    }
+    header{
+        background-color: black;
+        height: 150px;
+    }
+}
+nav{
+    background-color: #dd9d4e;
+ display: flex;
+}
+nav a{
+    color: black;
+    margin: 10px;
+    font-size: 16px;
+    vertical-align: middle;
+}
+nav a:hover{
+    background-color: #e6d369;
+    color: black;
+}
+section{
+    display: grid;
+    grid-template-columns: 1fr 2fr ;
+    grid-template-rows: 20vh 55vh;
+    grid-template-areas: "c c c"
+                                    "aside article form";
+}
+.principal{
+    grid-area: c;
+}
+aside{
+    grid-area: aside;
+    background-color:rgb(236, 168, 100);
+    border-radius: 15px;
+    height: 400px;
+    margin-left: 5px;
+}
+article{
+    grid-area: article;
+    
+}
+form{
+    grid-area: form;
+}
+main{
+   
+    font-family: 'Roboto';
+    font-size: 1.2em;
+    height: 560px;
+}
+main section h1{
+    text-align: center;
+    width: 300px;
+  background-color: #d58522;
+  margin-left: 40%;
+  margin-top: 5px;
+  border-radius: 15px;
+}
+main section p{
+    font-family: 'Roboto';
+    margin: 0px 10px 0px 15px;
+    justify-content: center;
+}
+main section aside p{
+    text-justify:distribute;
+    
+}
+.arq2{
+   float: left;
+   margin-left: 25px;
+}
+main article figure img {
+    width: 70%;
+    margin: 0px 0px 0px 1px ;
+    border-radius: 15px;
+}
+main article figure{
+    margin-left: 100px;
+    
+}
+main article h2{
+    text-align: center;
+    background-color: #d58522;
+    width: 500px;
+    margin-left: 20%;
+    border-radius: 15px;
+}
+form{
+    font-family: 'Roboto';
+    font-size: 1.1em;
+   
+    border-radius: 15px;
+}
+main form picture img{
+    width: 70%;
+   border-radius: 15px;
+}
+main form picture{
+    float: right;
+    width: 1000px;
+}
+main form {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50vh;
+    grid-area: "c a";
+   
+}
+.mal{
+grid-area: c;
+margin-left: 25px;
+}
+.boa{
+    grid-area: a;
+    text-align: center;
+}
+.acacio{
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50vh 50vh;
+    grid-area: "a b"
+                        "c d";
+
+}
+.abacate{
+    grid-area: a;
+    border-radius: 15px;
+    margin-left: 10%;
+    margin-bottom: 5px;
+}
+.uva{
+    grid-area: b;
+    border-radius: 15px;
+    margin-left: 25px;
+    margin-bottom: 5px;
+}
+.maca{
+    grid-area: c;
+    border-radius: 15px;
+    margin-left: 10%;
+    margin-bottom: 5px;
+}
+.laranja{
+    grid-area: d;
+    border-radius: 15px;
+    margin-left: 25px;
+    margin-bottom: 5px;
+}
+main h2{
+    text-align: center;
+    background-color: #d58522;
+    width: 600px;
+    margin-left: 30%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+.banana{
+    border-radius: 15px;
+    margin-left: 30%;
+    background-color: ;
+}
